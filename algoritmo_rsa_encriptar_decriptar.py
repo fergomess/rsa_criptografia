@@ -26,7 +26,7 @@ message = rsa.decrypt(crypto, priv)
 print('Mensagem decriptada: \n',message.decode('utf8'))
 
 
-########################## ASSINATURA ###################
+################ ASSINATURA ###################
 
 signature = sign(message,priv)
 
